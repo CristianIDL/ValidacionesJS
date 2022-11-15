@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación Datos JS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Validación de datos</h1>
+    <div>
+        <!--Le quité los maxlenght para que el sistema pueda mostrar los errores de cantidad de caracteres-->
+
+        Ingresa tu nombre:
+        <input type="text" name="nombre" id="nombre" >
+        <input type="button" id="btnNombre" onclick="validarNombre()" value="Enviar">
+        <br>
+        Ingresa tu despacho:
+        <input type="text" name="despacho" id="despacho" >
+        <input type="button" id="btnNombre" onclick="validarDespacho()" value="Enviar">
+        <br>
+        Ingresa tu puesto:
+        <input type="text" name="puesto" id="puesto" >
+        <input type="button" id="btnPuesto" onclick="validarPuesto()" value="Enviar">
+        <br>
+        Ingresa tu edad:
+        <input type="text" name="edad" id="edad">
+        <input type="button" id="btnNombre" onclick="validarEdad()" value="Enviar">
+        <br>
+        Ingresa tu sueldo:
+        <input type="text" name="sueldo" id="sueldo">
+        <input type="button" id="btnNombre" onclick="validarSueldo()" value="Enviar">
+        <br>
+        Retención:
+        <input type="button" id="btnNombre" onclick="Retencion()"  value="Enviar">
+    </div>
+
+    <script src="js/validacion.js"></script>
+    </body>
+</html>
